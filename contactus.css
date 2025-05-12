@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .text-orange {
+    color: #f8ec84;
+  }
+  
+  .btn-orange {
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-orange:hover {
+    background-color: #e65c00;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    border: 2px solid #f09a19;
+    border-radius: 0.5rem;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #ff6f00;
+    box-shadow: 0 0 5px rgba(255, 111, 0, 0.3);
+  }
+ 
+  

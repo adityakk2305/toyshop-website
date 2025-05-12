@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Store </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <!-- Bootstrap Icons CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<style>
+  body{
+    background-color: rgb(110, 107, 103);
+  }
+</style>
+
+</head>
+<body>
+    <!-- <div id="navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Lgo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div id="footer">
+        <footer class="py-5">
+            <div class="row">
+              <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-md-5 offset-md-1 mb-3">
+                <form>
+                  <h5>Subscribe to our newsletter</h5>
+                  <p>Monthly digest of what's new and exciting from us.</p>
+                  <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                    <button class="btn btn-primary" type="button">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+        
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+              <p>© 2024 Company, Inc. All rights reserved.</p>
+              <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+              </ul>
+            </div>
+          </footer>
+    </div> -->
+
+
+
+
+    <!-- Navbar -->
+    <div id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">🌟 Adi</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contestestus.html">Contact us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="actionfiger.html">Action figer</a></li>
+                        <li class="nav-item"><a class="nav-link" href="barbie.html">Barbie</a></li>
+                        <li class="nav-item"><a class="nav-link" href="toycar.html">Toy car</a></li>
+                        <li class="nav-item"><a class="nav-link" href="marveltoys.html">Marvel toys</a></li>
+                    </ul>
+                    <form class="d-flex ms-3">
+                        <input class="form-control me-2" type="search" placeholder="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- carousel -->
+    <div id="carousel">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="static/carousel/caro5.png" class="d-block w-100" alt="..." height="450px">
+              </div>
+              <div class="carousel-item">
+                <img src="static/carousel/caro4.png" class="d-block w-100" alt="..." height="450px">
+              </div>
+              <div class="carousel-item">
+                <img src="static/carousel/caro6.png" class="d-block w-100" alt="..." height="450px">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+<!-- info -->
+ <center>
+    <div id="info" style="margin:52px;">
+        <div class="row">
+            <div class="col-lg-4" style="border: 3px double rgb(233, 233, 237); border-radius: 10px; padding: 10px; background-color: lightblue;  margin-right:55px;margin-left:14px;width: 30%;">
+            <img src="static/info/shipping.jpeg" alt="" height="150px" width="150px" > 
+              <h2 class="fw-normal">Heading</h2>
+              <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+              <p><a class="btn btn-secondary" href="#">View details »</a></p>
+            </div>
+            <div class="col-lg-4"  style="border: 3px double  whitesmoke; border-radius: 10px;padding: 20px; background-color: lightblue;  margin-right:4px;margin-left:4px;width: 30%;" >
+             <img src="static/info/call.jpeg" alt=""  height="150px" width="150px">
+              <h2 class="fw-normal">Heading</h2>
+              <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+              <p><a class="btn btn-secondary" href="#">View details »</a></p>
+            </div> 
+             <div class="col-lg-4"  style="border: 3px double  whitesmoke; border-radius: 10px;padding: 20px; background-color: lightblue;  margin-left:55px;width: 30%;">
+              <img src="static/info/inquiry.jpeg" alt=""  height="150px" width="150px">
+              <h2 class="fw-normal">Heading</h2>
+              <p>And lastly this, the third column of representative placeholder content.</p>
+              <p><a class="btn btn-secondary" href="#">View details »</a></p>
+            </div>
+          </div> 
+</center>
+
+    </div>
+<!-- product -->
+    <div id="ourproduct">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="/static/products/prod1.jpeg" alt="" height="270px" style="border: 2px solid black;">
+                  <div class="card-body">
+                    <h3>Deadpool Soft Toy</h3>
+                    <p class="card-text">Crocheted chibi Deadpool plush with red and black yarn. Features big white eyes.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-outline-primary">Buy</button>
+                      </div>
+                      <small class="text-body-secondary"><b> ₹ 350 </b></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                    <img src="/static/products/prod2.jpeg" alt="" height="270px" style="border: 2px solid black ;">
+                  <div class="card-body">
+                    <h3>Iron man Soft Toy</h3>
+                    <p class="card-text">Crocheted Iron Man plush in chibi style. Made with red, gold yarn, and big black eyes.</p>
+
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        
+                        <button type="button" class="btn btn-sm btn-outline-primary">Buy</button>
+                        
+                      </div>
+                      <small class="text-body-secondary"><b> ₹ 350 </b></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="static/products/pord3.jpeg" alt="" height="270px" style="border: 2px solid black;">
+                  <div class="card-body">
+                    <h3>Rc 4x4 jeep</h3>
+                    <p class="card-text">This is a bright red toy jeep, ready for adventure with its chunky black tires and robust front. </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-primary">Buy</button>
+                    
+                      </div>
+                      <small class="text-body-secondary"><b> ₹499</b></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="static/products/pord4.jpeg" alt="" height="270px" style="border: 2px solid black;">
+                  <div class="card-body">
+                    <h3>Barbie toy</h3>
+                    <p class="card-text">
+                      This Barbie set features Barbie and a smaller doll at a turquoise cafe counter. </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-primary">Buy</button>
+                        
+                      </div>
+                      <small class="text-body-secondary"><b> ₹600</b></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                 <img src="static/products/pord5.jpeg" alt="" height="270px" style="border: 2px solid black;">
+                  <div class="card-body">
+                    <h3>drigon ballz toy figure</h3>
+                    <p class="card-text">Kid Goku rides the Flying Nimbus with a cheerful smile. A classic Dragon Ball moment in figure form!</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                      </div>
+                      <small class="text-body-secondary"><b> ₹650</b></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                 <img src="static/products/pord6.jpeg" alt="" height="270px" style="border: 2px solid black;">
+                  <div class="card-body">
+                    <h3>lego toy</h3>
+                    <p class="card-text">LEGO Classic "Bricks and Animals" offers 1500 colorful pieces for creative building. The set suitable fo children aged 4+.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-primary">Buy</button>
+                      </div>
+                      <small class="text-body-secondary"><b>₹ 999</b></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                <img src="static/products/pord7.jpeg" alt="" height="270px" style="border: 2px solid black;">
+                  <div class="card-body">
+                    <h3>ludo</h3>
+                    <p class="card-text">Ludo is a classic board game played by 2 to 4 players.
+                      Each player has four tokens, racing from start to home based on die roll.</p>
+                     
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-primary">Buy</button>
+                      </div>
+                      <small class="text-body-secondary"><b>₹150</b></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="static/products/pord8.jpeg" alt="" height="270px"  style="border: 2px solid black;">
+                  <div class="card-body">
+                    <h3>watch toy</h3>
+                    <p class="card-text">The Omnitrix is a device that lets Ben 10 transform into powerful aliens.
+                      It’s key to his battles against villains across the universe.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-primary">Buy</button>
+                        
+                      </div>
+                      <small class="text-body-secondary"><b>₹500</b></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                 <img src="static/products/pord9.jpeg" alt="" height="270px" style="border: 2px solid black;">
+                  <div class="card-body">
+                    <h3>hot weeles toy</h3>
+                    <p class="card-text">Hot Wheels' Suzuki GSX 1300R Hayabusa is a mini version of the legendary superbike.
+                      It captures the sleek speed and bold style of the real Hayabusa in die-cast form.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-primary">Buy</button>
+        
+                      </div>
+                      <small class="text-body-secondary"><b>₹450</b></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                 <img src="static/products/prod 12.jpeg" alt="" height="270px" style="border: 2px solid black;">
+                  <div class="card-body">
+                    <h3>hot weeles toy</h3>
+                    <p class="card-text">This WWE Kids magazine cover features legendary champions like The Rock, John Cena, and The Undertaker.
+                            It highlights "Greatest Champs Ever!" and includes fun activities like.</p>
+    
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-primary">Buy</button>
+        
+                      </div>
+                      <small class="text-body-secondary"><b>₹450</b></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                 <img src="static/products/prod 11.jpeg" alt="" height="270px" style="border: 2px solid black;">
+                  <div class="card-body">
+                    <h3>hot weeles toy</h3>
+                    <p class="card-text">Pikachu EX is a powerful Electric-type Pokémon card with 120 HP.
+                     Its "Circle Circuit" attack deals 30 damage for each Benched Electric Pokémon you have.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-primary">Buy</button>
+        
+                      </div>
+                      <small class="text-body-secondary"><b>₹450</b></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="static/products/pord10.jpeg" alt="" height="270px" style="border: 2px solid black;">
+                  <div class="card-body">
+                    <h3>uno card</h3>
+                    <p class="card-text">UNO is a fast-paced card game where players match colors or numbers to win.
+                      Use action cards to skip, reverse, or make others draw — first to zero cards wins!.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-primary">Buy</button>
+                      </div>
+                      <small class="text-body-secondary">₹ 150</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+    </div>
+    <!-- baner -->
+    <div id="baner " class="container">
+        <div class="my-4 mb-4 rounded text-body-emphasis bg-body-secondary">
+            <!-- <div class="col-lg-6 px-0"> -->
+             <img src="static/baner/Web Banner.jpeg" alt="" width="100%" height="350px">
+            <!-- </div> -->
+          </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <div id="footer">
+        <footer class="bg-dark text-light py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>Company</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Support</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Newsletter</h5>
+                        <form>
+                            <input type="email" class="form-control mb-2" placeholder="Your Email">
+                            <button class="btn btn-outline-light w-100">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <h5>Follow Us</h5>
+                        <a href="#" class="me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="me-2"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <p class="text-center">© 2024 Company, Inc. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
